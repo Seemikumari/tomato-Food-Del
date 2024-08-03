@@ -11,7 +11,7 @@ const StoreContextProvider = (props) => {
 
 
     const [cartItems, setCartItems] = useState({});
-    const url = "http://localhost:4000"
+    const url = "https://tomato-food-del-tv1e.vercel.app/"
     const [token,setToken] = useState("")
 
     const[food_list,setFoodList] = useState([])
